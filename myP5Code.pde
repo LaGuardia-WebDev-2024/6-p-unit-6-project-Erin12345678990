@@ -11,10 +11,13 @@ void draw(){
   strokeWeight(1);
 
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
-  
-
-  
-
+ ellipse(204,297,200,120); //bum
+   ellipse(199,217,120,90); //neck? 
+  ellipse(197,130,150,120); //head
+rect(140,210,35,160); // arm-left
+rect(225,210,35,160); //arm-right
+triangle(277,50,223,73,264,100); //right-ear
+triangle()
 }
 
 //🟡Extra FUN Features Ms. Hall Added
