@@ -11,13 +11,26 @@ void draw(){
   strokeWeight(1);
 
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
+  background(235, 210, 190)
+  fill(232, 152, 94)
  ellipse(204,297,200,120); //bum
    ellipse(199,217,120,90); //neck? 
   ellipse(197,130,150,120); //head
+  fill(235, 210, 190)
+  ellipse(170,120,45,45); //left-eye
+  fill(235, 210, 190);
+rect(227,105,120,60); //face-square?)
+rect(227,105,120,60); //face-square?)
+rect(227,105,120,60); //face-square?
+  fill(246, 71, 64)
+  ellipse(226,120, 45,45); //right-eye
+  fill(20, 18, 4)
+  ellipse(170,120,25,25); //left-eye-inner
+  ellipse(225,120,25,25); //righ-eye-inner
 rect(140,210,35,160); // arm-left
 rect(225,210,35,160); //arm-right
-triangle(277,50,223,73,264,100); //right-ear
-triangle()
+triangle(284,41,223,73,264,100); //right-ear
+triangle(111,42,129,102,161,75) //left-ear
 }
 
 //🟡Extra FUN Features Ms. Hall Added
