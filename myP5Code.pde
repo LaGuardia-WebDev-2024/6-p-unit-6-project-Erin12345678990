@@ -20,16 +20,34 @@ void draw(){
   fill(235, 210, 190)
   ellipse(170,120,45,45); //left-eye
   fill(235, 210, 190);
-  fill(246, 71, 64)
   ellipse(226,120, 45,45); //right-eye
-  fill(20, 18, 4)
+  fill(0,0,0)
   ellipse(170,120,25,25); //left-eye-inner
   ellipse(225,120,25,25); //righ-eye-inner
+   fill(232, 152, 94)
 rect(140,210,35,160); // arm-left
 rect(225,210,35,160); //arm-right
+fill(232, 152, 94)
 triangle(284,41,223,73,264,100); //right-ear
 triangle(111,42,129,102,161,75); //left-ear
-line
+fill(0,0,0)
+triangle(112,42,118,61,129,55); //l-ear-tip
+triangle(282,43,271,50,277,56);
+fill(237, 191, 183)
+ellipse(197,158,20,10); //nose
+fill(232, 152, 94)
+arc(185,168,20,20,radians(0),radians(180)); //mouth
+arc(210,168,20,20,radians(0),radians(180)); //mouth
+fill(247, 247, 242)
+ellipse(228,111, 10,10); //r-eye-light
+ellipse(175,111,10,10); //l-eye-light
+fill(237, 191, 183)
+ellipse(245,143, 20,10); //r-blush
+ellipse(151,141,20,10); //l-blush
+line(253,150,295,149); //r-whisker
+line(258,137,292,119); //r-whisker
+line(135,137,99,121); //l-whisker
+line(135,151,101,153); //l-whisker
 }
 
 

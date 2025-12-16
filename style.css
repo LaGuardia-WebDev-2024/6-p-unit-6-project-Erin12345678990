@@ -19,7 +19,7 @@ html{
 
 #myCanvas {
   border-radius: 30px;
-  border: 15px double rgb(0, 0, 0);
+  border: 15px double rgb(170, 98, 98);
 }
 
 .container{
@@ -37,11 +37,11 @@ html{
   width: 400px;
   object-fit: cover;
   border-radius: 30px;
-  border: 15px double rgb(0, 0, 0);
+  border: 15px double rgb(170, 98, 98);
 }
 
 h2{
-  color: black;
+  color: rgb(206, 115, 115);
   font-size:20px;
   font-family:cursive;
 }
